@@ -1,0 +1,14 @@
+{
+    "python.analysis.extraPaths": [
+        "./apps/frappe",
+    ],
+    "cSpell.words": [
+        "frappe",
+        "msgprint",
+        "grecaptcha",
+        "docname",
+        "docstatus",
+        "erpnext",
+        "inprogress"
+    ]
+}
