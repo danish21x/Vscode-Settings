@@ -1,0 +1,16 @@
+{
+    "version": "0.2.0",
+    "configurations":[
+   { "name": "Bench",
+    "type": "python",
+    "request": "launch",
+    "program": "{bench_location}apps/frappe/frappe/utils/bench_helper.py",
+    "args": [
+        "frappe", "serve", "--port", "8101", "--noreload", "--nothreading"
+    ],
+    "python": "{bench_location}env/bin/python",
+    "cwd": "{bench_location}/sites",
+    "env": {
+        "DEV_SERVER": "1"
+    },}]
+}
